@@ -5,9 +5,10 @@
 <h1>cephas is a monster lol</h1>
 <div class="monster">monster</div>
 <div class="webpagerecom">why not go to my other webpage:</div>
-<a href="https://calc.cephas.monster">calcualtor</a>
+<a href="https://calc.cephas.monster">calculator</a>
 <a href="https://covid.cephas.monster">covid tracker</a>
 <a href="https://blog.cephas.monster">My blog</a>
+<a href="https://sky.cephas.monster" class="sky">hypixel skyblock tracker(in heavy development)</a>
 </main>
 
 <style>
@@ -31,7 +32,7 @@
         font-size: 3vw;
     }
     a{
-        color: powderblue;
+        color: red;
         font-size: 3vw;
         padding-left: 5vw;
         padding-right: 5vw;
@@ -53,5 +54,18 @@
     }
     a:-webkit-any-link() {
         color: powderblue;
+    }
+    .sky {
+                background: linear-gradient(
+            to right,
+            #bf00c1 0%,
+            #FE5F55 50%,
+            #DDD92A 90%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration-line: underline;
+        text-decoration-thickness: auto
     }
 </style>
